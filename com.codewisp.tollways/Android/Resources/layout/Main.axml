@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/EntranceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate toll entry" />
+    <Button
+        android:id="@+id/UseBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate tollway use" />
+    <Button
+        android:id="@+id/ExitBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate toll exit" />
+    <TextView
+        android:id="@+id/Credits"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
+    <ImageView
+        android:id="@+id/QRImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
